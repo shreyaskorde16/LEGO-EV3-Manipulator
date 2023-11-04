@@ -1,6 +1,12 @@
 # **Pick and Place Operation by LEGO EV3 Robot Manipulator**
 ---
 
+- `Robot5_v3_10.m`: Includes the whole script needed to operate the robot manipulator in all of its activities.
+- `LEGO_EV3_MANIPULATOR_REPORT.pdf`: Contains useful information for operation of Robot
+- `Actual_working_of_robot.mp4`: Working of robot in video format(mp4).
+- `inverse_kinematics.png`: Diagram of robot links and its crucial angles
+
+
 # **Introduction**
 <p align="justify"> 
 A robotic system constructed with the LEGO Mindstorms EV3 platform is called the LEGO EV3 Robot Manipulator. One well-liked robotics kit for educators and hobbyists that lets users construct and operate their own robots is the LEGO Mindstorms EV3. Robot manipulators and other robotic projects can be made with the EV3 kit, which comes with a variety of sensors, motors, and programmable bricks.  
@@ -39,3 +45,26 @@ A robot manipulator is a type of robot that is designed to manipulate objects, o
 `Gear ratio of motor C `: 3  
 
 `Gear ratio of motor A`: 5  
+
+# **Working**
+
+Explanation of various functions used in the script are as follows:
+
+ <div style="text-align: center">
+   
+  - `home`: This function is used to raise the robot arm to position B, leaving the gripper open and the arm raised.
+  - `armDown`: In order to lower the robot arm downward.
+  - `armup`: In order to lower the robot arm upward.
+  - `gripper_operations`: Use to `OPEN` and `CLOSE` the gripper of the Robot.
+  - `inv_kine`: This function uses an inverse kinematics solution to find out the angles theta1 and theta2.
+  - `turnC`: To set the gripper at position C.
+  - `turn_b_fromC`: to turn the gripper from position `B` to `C`.
+  - `turn_a`: To set the gripper at position `A`.
+  - `turn_c_fromA`:To set the gripper from position `C` to `A`
+  
+ </div>
+
+
+
+
+Video link: __[Watch the working of LEGO EV3 Manipulator](https://youtu.be/QXRAOuqKnGk)__
