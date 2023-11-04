@@ -30,7 +30,11 @@ A robot manipulator is a type of robot that is designed to manipulate objects, o
 </p>
 
 # **Dimensions**
-<img src="https://github.com/shreyaskorde16/LEGO-EV3-Manipulator/blob/09a2a57ab95224427c76cefb4f220ca3a2b7aade/links.png" width="350" height="350" align="right"/>  
+
+<img src="https://github.com/shreyaskorde16/LEGO-EV3-Manipulator/blob/main/links.png" width="350" height="350" align="right"/>  
+
+
+    
 
 `link 1`: 50mm  
 
@@ -44,8 +48,13 @@ A robot manipulator is a type of robot that is designed to manipulate objects, o
 
 `Gear ratio of motor C `: 3  
 
-`Gear ratio of motor A`: 5    
+`Gear ratio of motor A`: 5     
 
+    
+      
+
+
+    
   ---
 
 # **Working**
