@@ -30,7 +30,7 @@ A robot manipulator is a type of robot that is designed to manipulate objects, o
 </p>
 
 # **Dimensions**
-<img src="https://github.com/shreyaskorde16/LEGO-EV3-Manipulator/blob/09a2a57ab95224427c76cefb4f220ca3a2b7aade/links.png" width="350" height="350" align="right"/>
+<img src="https://github.com/shreyaskorde16/LEGO-EV3-Manipulator/blob/09a2a57ab95224427c76cefb4f220ca3a2b7aade/links.png" width="350" height="350" align="right"/>  
 
 `link 1`: 50mm  
 
@@ -44,9 +44,13 @@ A robot manipulator is a type of robot that is designed to manipulate objects, o
 
 `Gear ratio of motor C `: 3  
 
-`Gear ratio of motor A`: 5  
+`Gear ratio of motor A`: 5    
+
+  ---
 
 # **Working**
+<img src="https://github.com/shreyaskorde16/LEGO-EV3-Manipulator/blob/main/inverse_kinematic.png" width="300" height="400" align="right">  
+
 
 Explanation of various functions used in the script are as follows:
 
@@ -65,6 +69,14 @@ Explanation of various functions used in the script are as follows:
  </div>
 
 
+  
 
+# **Operations performed by Robot Manipulator**
+- Pick up a thing from station B and put it at station C.
+- Pick up a thing from station C and put it at station A.
+- Pick up a thing from station A and put it at station B.
+- Pick up a thing from station B and put it at station A.
+- Pick up a thing from station A and put it at station C.
+- Pick up a thing from station C and put it at station B.
 
 Video link: __[Watch the working of LEGO EV3 Manipulator](https://youtu.be/QXRAOuqKnGk)__
